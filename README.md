@@ -6,3 +6,4 @@
 ![docker-logo](https://img.icons8.com/color/60/000000/docker.png)
 ![mysql-logo](https://img.icons8.com/fluency/60/000000/mysql-logo.png)
 ![restapi-logo](https://img.icons8.com/nolan/60/api-settings.png)
+![kubernetes-logo](https://img.icons8.com/color/60/000000/kubernetes.png)
