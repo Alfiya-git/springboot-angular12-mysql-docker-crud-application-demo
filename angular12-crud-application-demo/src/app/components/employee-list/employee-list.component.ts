@@ -6,6 +6,9 @@ import { Employee } from '../../model/employee.model';
 import { EmployeeService } from '../../service/employee.service';
 import { ApiResponse } from '../../model/api.response';
 
+import * as $ from 'jquery';
+import 'datatables.net'
+
 @Component({
   selector: 'app-employee-list',
   templateUrl: './employee-list.component.html',
