@@ -4,5 +4,5 @@ export class Employee {
   lastName?: string;
   email?: string;
   phoneNumber?: string;
-  departmen?: string;
+  department?: string;
 }

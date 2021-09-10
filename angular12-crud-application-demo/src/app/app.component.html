@@ -9,14 +9,22 @@
     </button>
     <span>CRUD Application</span>
 
-    <a routerLink="/add" style="text-decoration: none; color: black">
+    <a
+      routerLink="/add"
+      style="text-decoration: none; color: black"
+      routerLinkActive="active"
+    >
       <button mat-raised-button class="add-employee-button">
         Add Employee
         <mat-icon>add_circle</mat-icon>
       </button>
     </a>
 
-    <a routerLink="/employees" style="text-decoration: none; color: black">
+    <a
+      routerLink="/employees"
+      style="text-decoration: none; color: black"
+      routerLinkActive="active"
+    >
       <button mat-raised-button class="employees-list-button">
         Employees List
         <mat-icon>list</mat-icon>
@@ -41,7 +49,8 @@
   </mat-toolbar>
 </p>
 <hr style="margin-left: 22%; margin-top: 30px; width: 52%" />
-<mat-card class="mat-cart">
+<h3 style="margin-left: 22%; margin-top: 10px">
   SPRINGBOOT - ANGULAR 12 CRUD WEB API
-</mat-card>
+</h3>
+<mat-card class="mat-cart"></mat-card>
 <router-outlet></router-outlet>
