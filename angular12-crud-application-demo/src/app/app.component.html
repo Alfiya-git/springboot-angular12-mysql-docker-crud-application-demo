@@ -1,1 +1,47 @@
-<app-create-employee></app-create-employee>
+<p>
+  <mat-toolbar color="primary">
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>CRUD Application</span>
+
+    <a routerLink="/add" style="text-decoration: none; color: black">
+      <button mat-raised-button class="add-employee-button">
+        Add Employee
+        <mat-icon>add_circle</mat-icon>
+      </button>
+    </a>
+
+    <a routerLink="/employees" style="text-decoration: none; color: black">
+      <button mat-raised-button class="employees-list-button">
+        Employees List
+        <mat-icon>list</mat-icon>
+      </button>
+    </a>
+
+    <span class="example-spacer"></span>
+    <button
+      mat-icon-button
+      class="example-icon favorite-icon"
+      aria-label="Example icon-button with heart icon"
+    >
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with share icon"
+    >
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+</p>
+<hr style="margin-left: 22%; margin-top: 30px; width: 52%" />
+<mat-card
+  style="margin-left: 22%; margin-top: 20px; width: 50%; font-size: large"
+  >SPRINGBOOT - ANGULAR 12 CRUD WEB API</mat-card
+>

@@ -15,6 +15,7 @@ import { UpdateEmployeeComponent } from './components/update-employee/update-emp
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button'
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { MatButtonModule } from '@angular/material/button'
     HttpClientModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule 
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
