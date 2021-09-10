@@ -11,3 +11,10 @@
   font-size: large;
   margin-left: 20px;
 }
+
+.mat-card {
+  margin-left: 22%;
+  margin-top: 20px;
+  width: 50%;
+  font-size: large;
+}
