@@ -16,6 +16,6 @@ services:
       - 8080:8080
     build:
       context: ./
-      dockerfile: Dockerfile
+      dockerfile: springboot-crud-application-demo/Dockerfile
     depends_on:
       - mysql-standalone

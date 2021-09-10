@@ -9,14 +9,21 @@
     </button>
     <span>CRUD Application</span>
 
-    <button mat-raised-button class="add-employee-button">
-      Add Employee
-      <mat-icon>add_circle</mat-icon>
-    </button>
-    <button mat-raised-button class="employees-list-button">
-      Employees List
-      <mat-icon>list</mat-icon>
-    </button>
+
+    <a routerLink="/add" style="text-decoration: none; color: black">
+      <button mat-raised-button class="add-employee-button">
+        Add Employee
+        <mat-icon>add_circle</mat-icon>
+      </button>
+    </a>
+
+    <a routerLink="/employees" style="text-decoration: none; color: black;">
+      <button mat-raised-button class="employees-list-button">
+        Employees List
+        <mat-icon>list</mat-icon>
+      </button>
+    </a>
+
 
     <span class="example-spacer"></span>
     <button
