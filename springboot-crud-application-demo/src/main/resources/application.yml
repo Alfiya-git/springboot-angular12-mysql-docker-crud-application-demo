@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysql-standalone/test?allowPublicKeyRetrieval=true&useSSL=false
+    url: jdbc:mysql://database-1.ccrwpypmoaxe.ap-south-1.rds.amazonaws.com
     username: testuser
-    password: testuser@123
+    password: testuser123
     hikari:
       initialization-fail-timeout: 0
   jpa:
